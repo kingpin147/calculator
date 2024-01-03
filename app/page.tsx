@@ -49,12 +49,12 @@ const  buttons = [
         readonly
       />
      </div>
-     <div className=" grid grid-cols-4 gap-2">
+     <div className=" grid grid-cols-4 gap-4 ">
       {buttons.map((btn)=>( 
         < button 
         key={btn}
         onClick={()=>handleButtonClick(btn)}
-        className="text-4xl bg-gray-300 hover:bg-gray-400 p-2 rounded-lg"
+        className="text-5xl bg-gray-300 hover:bg-gray-400 p-2 rounded-xl"
         >
           {btn}
         </button>
