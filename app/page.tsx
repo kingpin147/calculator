@@ -35,18 +35,18 @@ const  buttons = [
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <h1 className = "texl-4xl font-bold mmb-10">Calculator</h1>
-     <div ClassName=" bg-white p-6 rounded-lg shadow-lg">
+     <div className=" bg-white p-6 rounded-lg shadow-lg">
       <input
         type="text"
         className="w-full mb-2 text-3xl border-b-2 border-gray-400 focus: outline-none"
         value={expression}
-        readonly
+        readOnly
       />
       <input
         type="text"
         className="w-full mb-4 text-4xl focus: outline"
         value={result}
-        readonly
+        readOnly
       />
      </div>
      <div className=" grid grid-cols-4 gap-4 ">
